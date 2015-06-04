@@ -1,1 +1,4 @@
-<%= select :page, :name, [["Railsの基礎", "rails_base"], ["Rubyの基礎", "ruby_base"]], {prompt: "選択してください"}, {class: 'target'} %>
+<%= select_tag :select_field,
+     options_for_select([["Railsの基礎", "rails_base"], ["Rubyの基礎", "ruby_base"]]),
+     prompt: "選択してください", class: 'target'
+%>
