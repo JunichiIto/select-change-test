@@ -1,3 +1,3 @@
 $ ->
   $('.target').change ->
-    $(this).after('selected!')
+    $(this).after('changed!')
